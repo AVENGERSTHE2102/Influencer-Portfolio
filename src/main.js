@@ -198,14 +198,12 @@ $(document).ready(function () {
     $(".loop-parent").each(function (index) {
         let loopParent = $(this);
         setInterval(function () {
-            let currentImageLoop = loopParent.find(".loop-image.shown-image");
-            let nextImage = currentImageLoop.next(".loop-image");
-            if (nextImage.length > 0) {
-                nextImage.addClass("shown-image");
-            } else {
-                loopParent.find(".loop-image").eq(0).addClass("shown-image");
-            }
-            currentImageLoop.removeClass("shown-image");
+            let images = loopParent.find(".loop-image");
+            let currentIndex = images.index(images.filter(".shown-image"));
+            let nextIndex = (currentIndex + 1) % images.length;
+
+            images.eq(currentIndex).removeClass("shown-image");
+            images.eq(nextIndex).addClass("shown-image");
         }, loopImageDuration);
     });
     // Loading Screen Animation
