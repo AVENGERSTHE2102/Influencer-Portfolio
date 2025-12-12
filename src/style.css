@@ -1,0 +1,450 @@
+.wf-force-outline-none[tabindex="-1"]:focus {
+    outline: none;
+}
+
+@media (min-width:992px) {
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="7f9ba488-34cb-c09e-7cc7-d4929fa93aff"] {
+        -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="01e8763d-c0d3-a119-8fbc-2352bc0336f8"] {
+        -webkit-transform: translate3d(0, 0, 0) scale3d(0.86, 0.86, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -moz-transform: translate3d(0, 0, 0) scale3d(0.86, 0.86, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -ms-transform: translate3d(0, 0, 0) scale3d(0.86, 0.86, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        transform: translate3d(0, 0, 0) scale3d(0.86, 0.86, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        background-color: rgb(114, 114, 114);
+    }
+
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="b56ec1f1-2fce-eaa3-aae2-96e0802c5b41"] {
+        -webkit-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -moz-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -ms-transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        transform: translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fafafa;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.nav-parent {
+    -webkit-perspective: 1000px !important;
+    -webkit-backface-visibility: none !important;
+    -webkit-transform-style: preserve-3d !important;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.burger-menu-parent {
+    -webkit-perspective: 1000px !important;
+    -webkit-backface-visibility: none !important;
+    -webkit-transform-style: preserve-3d !important;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.flex-cc-h.menu {
+    -webkit-perspective: 1000px !important;
+    -webkit-backface-visibility: none !important;
+    -webkit-transform-style: preserve-3d !important;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+@media screen and (min-width: 1600px) {
+    .tab-txt-wrap {
+        height: 80px;
+    }
+
+    .tab-title {
+
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .nav {
+        height: 140px;
+    }
+
+    .burger-menu-parent {
+        padding: 15px;
+    }
+
+}
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="email"],
+input[type="tel"],
+.input-checkbox {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+body:hover .cursor {
+    opacity: 1.0;
+}
+
+.cursor {
+    pointer-events: none;
+}
+
+/*The page-wrapper is initially hidden*/
+.page-wrapper {
+    display: none;
+}
+
+.letter {
+    display: inline-block;
+}
+
+.tricksword {
+    white-space: nowrap;
+}
+
+.fade-up .letter {
+    opacity: 0;
+}
+
+.fade-up2 .letter {
+    opacity: 0;
+}
+
+.loading-text-parent .loading-left .loading-text-second .super-text {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0)
+}
+
+.tk-sharktooth {
+    font-family: "sharktooth", sans-serif;
+}
+
+.tk-cubano {
+    font-family: "cubano", sans-serif;
+}
+
+.tk-cubano-sharp {
+    font-family: "cubano-sharp", sans-serif;
+}
+
+.tk-aktiv-grotesk {
+    font-family: "aktiv-grotesk", sans-serif;
+}
+
+.tk-bee {
+    font-family: "bee", sans-serif;
+}
+
+.tk-base-mono-narrow {
+    font-family: "base-mono-narrow", monospace;
+}
+
+.tk-rig-solid-bold-fill {
+    font-family: "rig-solid-bold-fill", sans-serif;
+}
+
+.tk-rig-solid-bold-reverse {
+    font-family: "rig-solid-bold-reverse", sans-serif;
+}
+
+.tk-rig-solid-medium-fill {
+    font-family: "rig-solid-medium-fill", sans-serif;
+}
+
+.tk-baskerville-display-pt {
+    font-family: "baskerville-display-pt", serif;
+}
+
+.tk-baskerville-poster-pt {
+    font-family: "baskerville-poster-pt", serif;
+}
+
+.tk-marvin {
+    font-family: "marvin", sans-serif;
+}
+
+.tk-marvin-round {
+    font-family: "marvin-round", sans-serif;
+}
+
+.tk-marvin-shadow {
+    font-family: "marvin-shadow", sans-serif;
+}
+
+@font-face {
+    font-family: tk-sharktooth-n4;
+    src: url(https://use.typekit.net/af/9710d8/000000000000000000017238/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/9710d8/000000000000000000017238/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/9710d8/000000000000000000017238/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: tk-sharktooth-n7;
+    src: url(https://use.typekit.net/af/cf338c/000000000000000000017239/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/cf338c/000000000000000000017239/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/cf338c/000000000000000000017239/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: tk-cubano-i4;
+    src: url(https://use.typekit.net/af/26f0fd/00000000000000003b9afa9c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"), url(https://use.typekit.net/af/26f0fd/00000000000000003b9afa9c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"), url(https://use.typekit.net/af/26f0fd/00000000000000003b9afa9c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: tk-cubano-n4;
+    src: url(https://use.typekit.net/af/a941cf/00000000000000003b9afa9d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/a941cf/00000000000000003b9afa9d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/a941cf/00000000000000003b9afa9d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: tk-cubano-sharp-n4;
+    src: url(https://use.typekit.net/af/a96e28/00000000000000003b9afa9b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/a96e28/00000000000000003b9afa9b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/a96e28/00000000000000003b9afa9b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: auto;
+}
+
+/* Adding more essential fonts as per request */
+@font-face {
+    font-family: tk-aktiv-grotesk-n4;
+    src: url(https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Animate Line */
+:root {
+    --animate-line-color: #fbfbfb;
+    --animate-line-speed: 0.22s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+}
+
+.animate-line {
+    display: inline-block;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.animate-line::after {
+    pointer-events: none;
+    background-color: var(--animate-line-color);
+    content: "";
+    height: 1.5px;
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 0%;
+    transition: width var(--animate-line-ease) var(--animate-line-speed);
+}
+
+.animate-line:hover::after {
+    width: 100%;
+    right: auto;
+    left: 0%;
+}
+
+/* Stagger Text */
+.letter {
+    display: inline-block;
+}
+
+.tricksword {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tricksesWord {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Rotating Circle */
+.spinning-circle {
+    will-change: transform;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@media (pointer: fine) {
+    body:hover .cursor {
+        opacity: 1.0;
+    }
+}
+
+a {
+    color: inherit;
+}
+
+.cursor {
+    pointer-events: none;
+}
+
+.cursor.link-hover {
+    mix-blend-mode: difference;
+    font-size: 4.5em;
+}
+
+.cursor.link-hover .cursor_dot {
+    background-color: white;
+}
+
+/* Loading Screen Fixes */
+.loading-left {
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+.loading-text-parent {
+    width: 100% !important;
+}
+
+.loading-screen-parent {
+    display: flex !important;
+    /* Force flex to ensure it's visible initially */
+}
+
+/* Hero Image Visibility Fix */
+.shaukia-img-model-overlay {
+    z-index: 0 !important;
+    /* Bring the container up to visible level */
+    opacity: 1 !important;
+}
+
+.shaukia-img-model-overlay .shaukia-hero-image {
+    z-index: -1 !important;
+    /* Keep image behind the overlay tint */
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+
+/* Personal Portfolio Section Background */
+.personal-porfolio-parent {
+    z-index: 1 !important;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/src/assets/images/simran-hero.jpg") !important;
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+}
+
+/* Fix Text Layering over Hero Image */
+.shaukia-hero-holder {
+    position: relative !important;
+}
+
+.shaukia-hero-holder .container-full {
+    z-index: 10 !important;
+    position: relative !important;
+}
+
+.shaukia-hero-holder .home-hero-btm {
+    z-index: 10 !important;
+    position: absolute !important;
+    bottom: 0% !important;
+    left: 0% !important;
+    right: 0% !important;
+}
+
+/* Ensure reveal animations are clipped */
+.div-hide {
+    overflow: hidden !important;
+}
+/* Centered Footer Layout Override */
+.footer-ending {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1.5rem !important;
+    margin-top: 4em !important;
+}
+
+.footer-parent._1,
+.footer-parent._2,
+.footer-parent._3 {
+    width: auto !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+/* Ensure text inside is centered */
+.footer-social {
+    text-align: center !important;
+}
+
+/* Force visibility of sections after hero on mobile */
+@media screen and (max-width: 991px) {
+    .shaukia-intro-holder,
+    .shaukia-bio-holder,
+    .shaukia-bio-img-holder,
+    .looping-wrapper {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* Ensure the bio image loop has height */
+    .shaukia-bio-img-holder {
+        height: auto !important;
+        min-height: 200px !important;
+        display: flex !important;
+        overflow-x: auto !important;
+    }
+    
+    .shaukia-bio-img {
+        display: block !important;
+        width: 200px !important;
+        max-width: none !important;
+    }
+}
