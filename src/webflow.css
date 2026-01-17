@@ -4506,33 +4506,6 @@ a {
   font-family: Helveticaneuemed, sans-serif;
 }
 
-.opne-btn-container {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: absolute;
-}
-
-.text-ring {
-  width: 15em;
-}
-
-.open-btn-kia {
-  width: 65%;
-  height: 65%;
-  background-color: #fbfbfb;
-  border-radius: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: absolute;
-}
-
-.lottie-animation {
-  width: 4em;
-}
 
 .next-prev-parent {
   display: flex;
