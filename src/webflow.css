@@ -4583,7 +4583,7 @@ a {
 }
 
 .loading-left {
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   display: flex;
 }
@@ -4598,6 +4598,7 @@ a {
   font-family: Bosch, sans-serif;
   font-size: 9em;
 }
+
 
 .super-text-hero.text-white {
   font-family: Bosch, sans-serif;
